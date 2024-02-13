@@ -1,0 +1,27 @@
+body{
+    background-color: hsl(300, 1%, 67%);
+}
+#a1{
+    color: white;
+    font-size: 30px;
+}
+.box{
+    border: 3px solid;
+    font-size: 1.5em;
+    width: 50px;
+    height: 30px;
+}
+#box1{
+    background-color: greenyellow;
+    box-shadow: 3px 3px 5px;
+}
+#box2{
+    background-color: green;
+    box-shadow: 3px 3px 5px;
+}
+.container{
+    
+display: flex;
+justify-content: center;
+
+}
