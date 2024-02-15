@@ -33,18 +33,18 @@ header{
 .container {
     font-style: italic;
     font-size: 1.2em;
-    width: 50%; /* Możesz dostosować szerokość kontenera według potrzeb */
+    width: 50%; 
     text-align: left;
 }
 
 .container li {
-    list-style-position: inside; /* Ustawienie pozycji znaczników listy wewnątrz elementów li */
+    list-style-position: inside; 
 }
 .image {
 
-    max-width: 300px; /* Ustaw maksymalną szerokość obrazu */
-    display: block; /* Ustawienie obrazu jako elementu blokowego */
-    margin: auto; /* Ustawienie marginesów na automatyczne, co wyśrodkuje obraz */
+    max-width: 300px;
+    display: block; 
+    margin: auto; 
 }
 
 #txt{
