@@ -1,12 +1,14 @@
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 body{
     background-color: hsl(0, 0%, 8%);
 }
 .box {
     margin: auto;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-top: 12rem;
     display: flex;
     flex-direction: column; /* Ustawia kontenery w kolumnie */
     align-items: center; /* Wyśrodkowuje kontenery wzdłuż osi X */
@@ -17,6 +19,7 @@ body{
     width: 400px;
     height: 700px;
     background-color: hsl(0, 0%, 12%);
+    padding: 0 0 3rem 0;
 }
 
 .container {
@@ -29,15 +32,20 @@ body{
     background-color: hsl(0, 0%, 20%);
     margin-bottom: 15px;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1rem;
     color: white;  
+    text-decoration: none;
 }
 .container:hover:active{
     background-color: hsl(75, 94%, 57%);
     color: black;
 }
-
+.container:hover{
+    opacity: 0.7;
+}
+button{
+    border: 0;
+}
 
 
 
