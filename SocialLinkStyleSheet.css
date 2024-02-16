@@ -8,7 +8,7 @@ body{
     background-color: hsl(0, 0%, 8%);
 }
 .box {
-    margin: 2rem auto 0; /* Wyśrodkowanie poziome na wszystkich ekranach */
+    margin: 2rem  auto 0; /* Wyśrodkowanie poziome na wszystkich ekranach */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,6 +82,7 @@ p {
 @media (max-width: 600px) {
     .box {
         padding: 0 20px 2vh 20px; /* Padding dla urządzeń o szerokości ekranu poniżej 600px */
+        margin-bottom: 2rem;
     }
 }
 
