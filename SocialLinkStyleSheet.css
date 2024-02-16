@@ -46,6 +46,36 @@ body{
 button{
     border: 0;
 }
+#h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 0; /* Usunięcie domyślnego marginesu dla elementu h1 */
+}
+
+#h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0; /* Usunięcie wewnętrznego odstępu (padding) dla elementu h3 */
+    margin-top: 0.5rem; /* Dodanie odstępu od góry dla elementu h3 */
+    margin-bottom: 1rem; /* Usunięcie domyślnego marginesu dla elementu h3 */
+    color: hsl(75, 94%, 57%);
+}
+
+p {
+    margin-top: 0.5rem;
+    margin-bottom: 2rem; 
+    font-size: 1.3rem;
+    color: hsl(0, 1%, 53%);
+}    
+
+#Jaimg{
+    height: 140px;
+    border-radius: 50%;
+}
+
 
 
 
